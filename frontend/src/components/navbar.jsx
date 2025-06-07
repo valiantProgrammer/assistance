@@ -8,7 +8,7 @@ function SearchBox() {
 
   const handleClick = async () => {
     try {
-      const response = await axios.post('https://valiantProgrammer.github.io/assistance/api', {
+      const response = await axios.post('https://assistance-web.onrender.com/api', {
         message: input,
       });
       console.log('Server Response:', response.data);
