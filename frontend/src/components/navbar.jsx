@@ -8,7 +8,7 @@ function SearchBox() {
 
   const handleClick = async () => {
     try {
-      const response = await axios.post('https://valiantProgrammer.github.io/chatbot-main/api', {
+      const response = await axios.post('https://valiantProgrammer.github.io/assistance/api', {
         message: input,
       });
       console.log('Server Response:', response.data);
